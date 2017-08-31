@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>A-Frame Speech Example</title>
+    <meta name="description" content="A-Frame Speech Example">
+    <script src="js/aframe.js"></script>
+    <script src="../src/vendor/stm.js"></script>
+    <script src="../src/vendor/stm_vad.js"></script>
+    <script src="../src/vendor/webrtc_vad.js"></script>
+    <script src="js/build.js"></script>
+    <script src="js/components/speech-builder.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <h1>Speech Builder</h1>
+        <h3>Use your voice with A-Frame</h3>
+        <p>Press <bold>ctrl+alt+t</bold> to give a voice command</p>
+        <p>Ceate a geometry: say for instance <i>add a box</i>, <i>add a cone</i></p>
+        <p>Now you can change the color but just saying a color.</p>
+        <p>Or you can move the geometry left and right by saying <i>move right</i> or <i>move left</i>
+        <div class='user-feedback'></div>
+      </div>
+    <a-scene speech-builder>
+      <a-sky color="#ECECEC"></a-sky>
+    </a-scene>
+    </div>
+  </body>
+</html>
