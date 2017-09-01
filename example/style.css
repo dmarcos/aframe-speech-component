@@ -91,6 +91,13 @@ h3 {
 
 p {
   margin-bottom: 20px;
+  opacity: 0.85;
+}
+
+p b {
+ font-weight:bolder;
+ opacity: 1.0;
+ color: #ef2d5e;
 }
 
 .user-feedback {

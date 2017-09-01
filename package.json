@@ -1,14 +1,14 @@
 {
   "name": "aframe-speech-component",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A-Frame Speech Component",
   "main": "src/index.js",
   "scripts": {
-    "dist": "webpack --display-error-details src/index.js dist/a-painter-loader-component.js && webpack -p src/index.js dist/a-painter-loader-component.min.js",
+    "dist": "webpack --display-error-details src/index.js dist/aframe-speech-component.js && webpack -p src/index.js dist/aframe-speech-component.min.js",
     "start": "webpack-dev-server --host 0.0.0.0",
     "lint": "semistandard -v | snazzy"
   },
-  "repository": "dmarcos/a-painter-loader-component",
+  "repository": "dmarcos/aframe-speech-component",
   "license": "MIT",
   "semistandard": {
     "ignore": [
